@@ -28,5 +28,6 @@ return chocolateBars
 }
 
 function removeElementFromBeginningOfArray(chocolateBars){
-  
+  choclatebars.slice(1)
+  return choclatebars
 }
