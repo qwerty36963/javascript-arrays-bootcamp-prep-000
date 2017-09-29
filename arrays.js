@@ -9,6 +9,7 @@ chocolateBars.unshift(foo);
 return chocolateBars;
 }
 
-function addElementToEndOfArray(chocolateBars, foo){
-  
+function addElementToEndOfArray(foo ,chocolateBars){
+  chocolateBars.push(foo);
+  return chocolateBars;
 }
