@@ -10,6 +10,5 @@ return chocolateBars;
 }
 
 function addElementToEndOfArray(chocolateBars, foo){
-  chocolateBars.push(foo);
-  return chocolateBars;
+  return [chocolateBars, ...foo];
 }
